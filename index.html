@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>С Днём Рождения!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Лизочка, сегодня твой День Рождения!</h1>
+        <img id="bff-img" src="images/13.1.jpg">
+        <h2 id="bday-age">Я поздравляю тебя от глубины души до 21-го пальца!</h2>
+        <h4 id="bday-date">Я хочу пожелать тебе:</h4>
+    </div>
 
+    <div class="gift-section">
+        <h2 class="gift-title">Широчайших улыбок😁</h2>
+        <h3 class="gift-hint">(наведи на подарок)</h3>
+        <div class="gift-img" id="gift-img-happy"></div>
+    </div>
+
+    <div class="gift-section">
+        <h2 class="gift-title">Быть собой🤭</h2>
+        <h3 class="gift-hint">(мне это нраииица)</h3>
+        <div class="gift-img" id="gift-img-hot"></div>
+    </div>
+
+    <div class="gift-section">
+        <h2 class="gift-title">Частых мокрых снов и добрых утр от Дани🤤</h2>
+        <h3 class="gift-hint">(а куда без этого)</h3>
+        <div class="gift-img" id="gift-img-genius"></div>
+    </div>
+
+    <div class="gift-section">
+        <h2 class="gift-title">И еще очень и очень много чего...💖</h2>
+        <h3 class="gift-hint">(потому что ты заслуживаешь этого)</h3>
+        <div class="gift-img" id="gift-img-badass"></div>
+    </div>
+
+    <div class="gift-section">
+        <h2 class="gift-title">Целую обнимаю, твой Данечек!💋</h2>
+        <h3 class="gift-hint">(с праздником!!)</h3>
+        <div class="gift-img" id="gift-img-cheers"></div>
+    </div>
+
+    <!-- 🎵 Музыкальный плеер -->
+    <div id="music-player">
+        <button id="music-toggle">▶️ Включить музыку</button>
+        <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.2">
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="audio/IA_SDR.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает аудио.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
